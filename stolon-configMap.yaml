@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: stolon-cluster-kube-stolon
+  namespace: mobility-asia
+data:
+  config: |-
+    ---
+    :environment: staging

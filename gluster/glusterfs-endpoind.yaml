@@ -1,0 +1,34 @@
+{
+    "kind": "Endpoints",
+    "apiVersion": "v1",
+    "metadata": {
+      "name": "glusterfs-cluster",
+      "namespace": "mobility-asia"
+    },
+    "subsets": [
+      {
+        "addresses": [
+          {
+            "ip": "10.0.10.119"
+          }
+        ],
+        "ports": [
+          {
+            "port": 1
+          }
+        ]
+      },
+      {
+        "addresses": [
+          {
+            "ip": "10.0.10.128"
+          }
+        ],
+        "ports": [
+          {
+            "port": 1
+          }
+        ]
+      }
+    ]
+  }
